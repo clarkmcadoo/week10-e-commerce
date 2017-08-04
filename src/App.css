@@ -1,0 +1,71 @@
+*{
+  font-family: Helvetica, sans-serif
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.buttondiv{
+  display: flex;
+  justify-content: center;
+
+  height: 100px;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 10px;
+}
+
+.page-title{
+  text-align: center;
+}
+
+.cupslist{
+  display: flex;
+  justify-content: center;
+}
+
+.singleitem img{
+  height: 300px;
+  width: 300px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  margin: 5px;
+}
+
+.splashimg{
+  height: 500px;
+  width: 500px;
+}
+
+.gallerynav{
+  display: flex;
+  justify-content: center;
+}
